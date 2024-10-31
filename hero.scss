@@ -19,6 +19,7 @@
         &_girl {
             top: -200px;
             pointer-events: none;
+            opacity: 0;
 
             @media(max-width: 1200px) {
                 top: -100px;
@@ -35,6 +36,7 @@
             align-items: end;
             left: -450px;
             top: -60px;
+            opacity: 0;
 
             @media(max-width: 1200px) {
                 left: -0px;

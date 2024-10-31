@@ -10,6 +10,31 @@ for (let i = 0; i < 4; i++) {
     }
 }
 
-
-
 document.getElementById('nfts_run_list').innerHTML = nfts_run_html
+
+
+
+import './style.scss'
+import gsap from 'gsap';
+import { MotionPathPlugin, ScrollTrigger, TextPlugin } from 'gsap/all';
+gsap.registerPlugin(ScrollTrigger, MotionPathPlugin, TextPlugin)
+import hideLoader from './hideLoader.js'
+import showHero from './showHero.js'
+import nft from './nft.js'
+import vibe from './vibe.js'
+import stripes from './stripes.js'
+import strip from './strip.js'
+
+
+
+window.onload = function () {
+    setTimeout(() => {
+        hideLoader()
+        showHero(gsap)
+        nft(gsap)
+        vibe(gsap)
+        stripes(gsap)
+        strip(gsap)
+    }, 500);
+};
+

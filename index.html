@@ -6,9 +6,47 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
+
+  <style>
+    .loader {
+      background-color: #FFE984;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      z-index: 99;
+      left: 0px;
+      top: 0px;
+      transition: opacity 500ms;
+    }
+
+    .loader_text {
+      font-size: 56px;
+      text-shadow: 6.00px 0.00px #EACD43, 5.71px 1.85px #EACD43, 4.85px 3.53px #EACD43, 3.53px 4.85px #EACD43, 1.85px 5.71px #EACD43, 0.00px 6.00px #EACD43, -1.85px 5.71px #EACD43, -3.53px 4.85px #EACD43, -4.85px 3.53px #EACD43, -5.71px 1.85px #EACD43, -6.00px 0.00px #EACD43, -5.71px -1.85px #EACD43, -4.85px -3.53px #EACD43, -3.53px -4.85px #EACD43, -1.85px -5.71px #EACD43, -0.00px -6.00px #EACD43, 1.85px -5.71px #EACD43, 3.53px -4.85px #EACD43, 4.85px -3.53px #EACD43, 5.71px -1.85px #EACD43, 7.80px 1.80px #867111, 7.51px 3.65px #867111, 6.65px 5.33px #867111, 5.33px 6.65px #867111, 3.65px 7.51px #867111, 1.80px 7.80px #867111, -0.05px 7.51px #867111, -1.73px 6.65px #867111, -3.05px 5.33px #867111, -3.91px 3.65px #867111, -4.20px 1.80px #867111, -3.91px -0.05px #867111, -3.05px -1.73px #867111, -1.73px -3.05px #867111, -0.05px -3.91px #867111, 1.80px -4.20px #867111, 3.65px -3.91px #867111, 5.33px -3.05px #867111, 6.65px -1.73px #867111, 7.51px -0.05px #867111;
+      animation: loader .5s infinite alternate ease-in-out;
+    }
+
+    @keyframes loader {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: .2;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
+  <div class="loader" id="loader">
+    <div class="loader_text">
+      $SIS
+    </div>
+  </div>
   <div id="app">
     <div class="header">
       <div class="header_logo">
@@ -25,7 +63,7 @@
     </div>
     <div class="hero">
       <div class="hero_header">
-        stepsisio
+        <!-- stepsisio -->
       </div>
       <div class="hero_decor">
         <a href="https://t.me/Stepsisio" target="_blank" class="free_img hero_decor_tg">
@@ -39,8 +77,8 @@
 
     <div class="nfts">
       <div class="nfts_header">
-        stepsisio is ur best fren.
-        she likes big red candles and hard rugs, especially on solana.
+        <!-- stepsisio is ur best fren.
+        she likes big red candles and hard rugs, especially on solana. -->
       </div>
       <div class="nfts_run">
         <div class="nfts_run_list free_img" id="nfts_run_list">
@@ -49,7 +87,49 @@
     </div>
     <div class="vibe">
       <div class="vibe_header">
-        vibe with stepsisios on a beach vacation sippin tequila and sniffin coke while watching a beautiful sunset
+        <!-- vibe with stepsisios on a beach vacation sippin tequila and sniffin coke while watching a beautiful sunset -->
+      </div>
+      <div class="vibe_decor">
+        <div class="vibe_decor_1 free_img">
+          <div class="vibe_decor_inner">
+            <div class="vibe_decor_header">
+              $SIS
+            </div>
+            <div class="vibe_decor_content">
+              <img src='/img/vibe/1.jpg' alt='decor' />
+            </div>
+          </div>
+        </div>
+        <div class="vibe_decor_2 free_img">
+          <div class="vibe_decor_inner">
+            <div class="vibe_decor_header">
+              $SIS
+            </div>
+            <div class="vibe_decor_content">
+              <img src='/img/vibe/2.jpg' alt='decor' />
+            </div>
+          </div>
+        </div>
+        <div class="vibe_decor_3 free_img">
+          <div class="vibe_decor_inner">
+            <div class="vibe_decor_header">
+              $SIS
+            </div>
+            <div class="vibe_decor_content">
+              <img src='/img/vibe/3.jpg' alt='decor' />
+            </div>
+          </div>
+        </div>
+        <div class="vibe_decor_4 free_img">
+          <div class="vibe_decor_inner">
+            <div class="vibe_decor_header">
+              $SIS
+            </div>
+            <div class="vibe_decor_content">
+              <img src='/img/vibe/4.jpg' alt='decor' />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tapes">
@@ -161,8 +241,8 @@
       </div>
       <div class="strip_content">
         <div class="strip_header">
-          welcome to the sisterhood stepsisio! u look so cute and sexy stepsisio!
-          so good to have you here stepsisio!
+          <!-- welcome to the sisterhood stepsisio! u look so cute and sexy stepsisio! -->
+          <!-- so good to have you here stepsisio! -->
         </div>
         <div class="strip_media">
           <div class="free_img strip_media_el strip_media_el_1">
@@ -186,7 +266,7 @@
         </div>
       </div>
       <div class="rug_header">
-        who knows what to expect from stepsis…
+        <!-- who knows what to expect from stepsis… -->
       </div>
     </div>
 
