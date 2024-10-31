@@ -18,12 +18,28 @@
 
         &_girl {
             top: -200px;
+            pointer-events: none;
+
+            @media(max-width: 1200px) {
+                top: -100px;
+            }
+
+            img {
+                @media(max-width: 1200px) {
+                    width: 1000px;
+                }
+            }
         }
 
         &_tg {
             align-items: end;
             left: -450px;
             top: -60px;
+
+            @media(max-width: 1200px) {
+                left: -0px;
+                top: -240px;
+            }
         }
     }
 
@@ -32,6 +48,10 @@
         text-align: center;
         font-size: 150px;
         text-shadow: 10.00px 0.00px #EACD43, 9.24px 3.83px #EACD43, 7.07px 7.07px #EACD43, 3.83px 9.24px #EACD43, 0.00px 10.00px #EACD43, -3.83px 9.24px #EACD43, -7.07px 7.07px #EACD43, -9.24px 3.83px #EACD43, -10.00px 0.00px #EACD43, -9.24px -3.83px #EACD43, -7.07px -7.07px #EACD43, -3.83px -9.24px #EACD43, -0.00px -10.00px #EACD43, 3.83px -9.24px #EACD43, 7.07px -7.07px #EACD43, 9.24px -3.83px #EACD43, 14.00px 4.00px #867111, 13.24px 7.83px #867111, 11.07px 11.07px #867111, 7.83px 13.24px #867111, 4.00px 14.00px #867111, 0.17px 13.24px #867111, -3.07px 11.07px #867111, -5.24px 7.83px #867111, -6.00px 4.00px #867111, -5.24px 0.17px #867111, -3.07px -3.07px #867111, 0.17px -5.24px #867111, 4.00px -6.00px #867111, 7.83px -5.24px #867111, 11.07px -3.07px #867111, 13.24px 0.17px #867111;
+
+        @media(max-width: 600px) {
+            font-size: 90px;
+        }
     }
 
 }

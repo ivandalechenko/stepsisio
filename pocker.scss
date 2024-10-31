@@ -7,6 +7,10 @@
     &_decor {
         align-items: start;
         width: 100% !important;
+
+        @media(max-width: 800px) {
+            left: 200px;
+        }
     }
 
     &_content {
@@ -20,6 +24,12 @@
         max-width: 1400px;
         margin: 0 auto;
         padding: 0px 16px;
+
+        @media(max-width: 800px) {
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+        }
     }
 
     &_header {
@@ -27,9 +37,22 @@
         max-width: 420px;
         text-align: left;
         text-shadow: 4.00px 0.00px #E1DAC0, 3.70px 1.53px #E1DAC0, 2.83px 2.83px #E1DAC0, 1.53px 3.70px #E1DAC0, 0.00px 4.00px #E1DAC0, -1.53px 3.70px #E1DAC0, -2.83px 2.83px #E1DAC0, -3.70px 1.53px #E1DAC0, -4.00px 0.00px #E1DAC0, -3.70px -1.53px #E1DAC0, -2.83px -2.83px #E1DAC0, -1.53px -3.70px #E1DAC0, -0.00px -4.00px #E1DAC0, 1.53px -3.70px #E1DAC0, 2.83px -2.83px #E1DAC0, 3.70px -1.53px #E1DAC0, 8.00px 4.00px #9D9166, 7.70px 5.53px #9D9166, 6.83px 6.83px #9D9166, 5.53px 7.70px #9D9166, 4.00px 8.00px #9D9166, 2.47px 7.70px #9D9166, 1.17px 6.83px #9D9166, 0.30px 5.53px #9D9166, 0.00px 4.00px #9D9166, 0.30px 2.47px #9D9166, 1.17px 1.17px #9D9166, 2.47px 0.30px #9D9166, 4.00px 0.00px #9D9166, 5.53px 0.30px #9D9166, 6.83px 1.17px #9D9166, 7.70px 2.47px #9D9166;
+
+        @media(max-width: 800px) {
+            max-width: 100%;
+            width: 100%;
+        }
     }
 
     &_media {
+        @media(max-width: 800px) {
+            height: 300px !important;
+            width: 100% !important;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+
         &_el {
             justify-content: right !important;
 

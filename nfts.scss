@@ -9,12 +9,19 @@
         font-size: 96px;
         text-align: center;
         text-shadow: 12.00px 0.00px #E1DAC0, 11.09px 4.59px #E1DAC0, 8.49px 8.49px #E1DAC0, 4.59px 11.09px #E1DAC0, 0.00px 12.00px #E1DAC0, -4.59px 11.09px #E1DAC0, -8.49px 8.49px #E1DAC0, -11.09px 4.59px #E1DAC0, -12.00px 0.00px #E1DAC0, -11.09px -4.59px #E1DAC0, -8.49px -8.49px #E1DAC0, -4.59px -11.09px #E1DAC0, -0.00px -12.00px #E1DAC0, 4.59px -11.09px #E1DAC0, 8.49px -8.49px #E1DAC0, 11.09px -4.59px #E1DAC0, 16.00px 4.00px #9D9166, 15.09px 8.59px #9D9166, 12.49px 12.49px #9D9166, 8.59px 15.09px #9D9166, 4.00px 16.00px #9D9166, -0.59px 15.09px #9D9166, -4.49px 12.49px #9D9166, -7.09px 8.59px #9D9166, -8.00px 4.00px #9D9166, -7.09px -0.59px #9D9166, -4.49px -4.49px #9D9166, -0.59px -7.09px #9D9166, 4.00px -8.00px #9D9166, 8.59px -7.09px #9D9166, 12.49px -4.49px #9D9166, 15.09px -0.59px #9D9166;
+
+        @media(max-width: 1000px) {
+            font-size: 48px;
+            text-shadow: 6.00px 0.00px #E1DAC0, 5.54px 2.30px #E1DAC0, 4.24px 4.24px #E1DAC0, 2.30px 5.54px #E1DAC0, 0.00px 6.00px #E1DAC0, -2.30px 5.54px #E1DAC0, -4.24px 4.24px #E1DAC0, -5.54px 2.30px #E1DAC0, -6.00px 0.00px #E1DAC0, -5.54px -2.30px #E1DAC0, -4.24px -4.24px #E1DAC0, -2.30px -5.54px #E1DAC0, -0.00px -6.00px #E1DAC0, 2.30px -5.54px #E1DAC0, 4.24px -4.24px #E1DAC0, 5.54px -2.30px #E1DAC0, 8.00px 2.00px #9D9166, 7.54px 4.30px #9D9166, 6.24px 6.24px #9D9166, 4.30px 7.54px #9D9166, 2.00px 8.00px #9D9166, -0.30px 7.54px #9D9166, -2.24px 6.24px #9D9166, -3.54px 4.30px #9D9166, -4.00px 2.00px #9D9166, -3.54px -0.30px #9D9166, -2.24px -2.24px #9D9166, -0.30px -3.54px #9D9166, 2.00px -4.00px #9D9166, 4.30px -3.54px #9D9166, 6.24px -2.24px #9D9166, 7.54px -0.30px #9D9166;
+        }
     }
 
     &_run {
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 120vw;
+        position: relative;
+        left: -10vw;
         height: 320px;
         align-items: center;
         margin-top: 90px;

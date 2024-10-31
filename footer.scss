@@ -14,6 +14,14 @@
         justify-content: space-between;
         align-items: center;
 
+        @media(max-width: 1100px) {
+            flex-wrap: wrap;
+            height: auto;
+            padding: 24px;
+            row-gap: 24px;
+            justify-content: center;
+        }
+
     }
 
     &_wrapper {
@@ -22,7 +30,16 @@
 
     &_rights {
         font-size: 48px;
+
+        @media(max-width: 1100px) {
+            text-align: center;
+        }
+
+        @media(max-width: 550px) {
+            font-size: 24px;
+        }
     }
+
 
     &_media {
         font-size: 48px;
