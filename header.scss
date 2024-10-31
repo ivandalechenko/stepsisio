@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    height: 70px;
+    top: 30px;
+    padding: 0px 12px;
+
+    &_logo {
+        font-size: 56px;
+        text-shadow: 6.00px 0.00px #EACD43, 5.71px 1.85px #EACD43, 4.85px 3.53px #EACD43, 3.53px 4.85px #EACD43, 1.85px 5.71px #EACD43, 0.00px 6.00px #EACD43, -1.85px 5.71px #EACD43, -3.53px 4.85px #EACD43, -4.85px 3.53px #EACD43, -5.71px 1.85px #EACD43, -6.00px 0.00px #EACD43, -5.71px -1.85px #EACD43, -4.85px -3.53px #EACD43, -3.53px -4.85px #EACD43, -1.85px -5.71px #EACD43, -0.00px -6.00px #EACD43, 1.85px -5.71px #EACD43, 3.53px -4.85px #EACD43, 4.85px -3.53px #EACD43, 5.71px -1.85px #EACD43, 7.80px 1.80px #867111, 7.51px 3.65px #867111, 6.65px 5.33px #867111, 5.33px 6.65px #867111, 3.65px 7.51px #867111, 1.80px 7.80px #867111, -0.05px 7.51px #867111, -1.73px 6.65px #867111, -3.05px 5.33px #867111, -3.91px 3.65px #867111, -4.20px 1.80px #867111, -3.91px -0.05px #867111, -3.05px -1.73px #867111, -1.73px -3.05px #867111, -0.05px -3.91px #867111, 1.80px -4.20px #867111, 3.65px -3.91px #867111, 5.33px -3.05px #867111, 6.65px -1.73px #867111, 7.51px -0.05px #867111;
+    }
+
+    &_media {
+        padding: 8px 32px;
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+        padding-top: 12px;
+        border-radius: 12px;
+        box-shadow: 4px 4px #CBB552;
+        border: 10px solid #F0DA74;
+
+        @media(max-width: 400px) {
+            border: 6px solid #F0DA74;
+            padding: 4px 16px;
+            padding-top: 8px;
+
+            img {
+                max-height: 30px;
+            }
+        }
+    }
+}

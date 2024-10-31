@@ -1,0 +1,36 @@
+.rug {
+    height: calc(84vw - 250px);
+    position: relative;
+    top: -250px;
+    z-index: 0;
+
+    &_decor {
+        z-index: 1;
+        align-items: start;
+        width: 100% !important;
+        display: flex;
+        justify-content: left;
+
+        &_inner {
+            justify-content: left;
+            align-items: start;
+
+            img {
+                width: 150vw;
+                height: 84vw;
+            }
+        }
+    }
+
+    &_header {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+        padding: 0px 15px;
+        font-size: 120px;
+        position: relative;
+        z-index: 2;
+        top: 250px;
+        text-shadow: 12.00px 0.00px #E1DAC0, 11.09px 4.59px #E1DAC0, 8.49px 8.49px #E1DAC0, 4.59px 11.09px #E1DAC0, 0.00px 12.00px #E1DAC0, -4.59px 11.09px #E1DAC0, -8.49px 8.49px #E1DAC0, -11.09px 4.59px #E1DAC0, -12.00px 0.00px #E1DAC0, -11.09px -4.59px #E1DAC0, -8.49px -8.49px #E1DAC0, -4.59px -11.09px #E1DAC0, -0.00px -12.00px #E1DAC0, 4.59px -11.09px #E1DAC0, 8.49px -8.49px #E1DAC0, 11.09px -4.59px #E1DAC0, 16.00px 4.00px #9D9166, 15.09px 8.59px #9D9166, 12.49px 12.49px #9D9166, 8.59px 15.09px #9D9166, 4.00px 16.00px #9D9166, -0.59px 15.09px #9D9166, -4.49px 12.49px #9D9166, -7.09px 8.59px #9D9166, -8.00px 4.00px #9D9166, -7.09px -0.59px #9D9166, -4.49px -4.49px #9D9166, -0.59px -7.09px #9D9166, 4.00px -8.00px #9D9166, 8.59px -7.09px #9D9166, 12.49px -4.49px #9D9166, 15.09px -0.59px #9D9166;
+    }
+}
