@@ -9,12 +9,43 @@
     flex-wrap: wrap;
     align-content: space-between;
 
+    &_bg {
+        width: 100% !important;
+        position: relative;
+        z-index: 0;
+        top: -300px;
+        align-items: start;
+
+        &_inner {
+            display: flex;
+            transform: rotate(10deg);
+
+        }
+
+        img {
+            width: 220vh;
+            animation: heroBgAnim 30s infinite linear;
+
+            @keyframes heroBgAnim {
+                0% {
+                    translate: 0px 0px;
+                }
+
+                100% {
+                    translate: 220vh;
+                }
+            }
+        }
+    }
+
     &_decor {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: end;
         height: 800px;
+        position: relative;
+        z-index: 2;
 
         &_girl {
             top: -200px;
@@ -49,6 +80,8 @@
         width: 100%;
         text-align: center;
         font-size: 150px;
+        position: relative;
+        z-index: 3;
         text-shadow: 10.00px 0.00px #EACD43, 9.24px 3.83px #EACD43, 7.07px 7.07px #EACD43, 3.83px 9.24px #EACD43, 0.00px 10.00px #EACD43, -3.83px 9.24px #EACD43, -7.07px 7.07px #EACD43, -9.24px 3.83px #EACD43, -10.00px 0.00px #EACD43, -9.24px -3.83px #EACD43, -7.07px -7.07px #EACD43, -3.83px -9.24px #EACD43, -0.00px -10.00px #EACD43, 3.83px -9.24px #EACD43, 7.07px -7.07px #EACD43, 9.24px -3.83px #EACD43, 14.00px 4.00px #867111, 13.24px 7.83px #867111, 11.07px 11.07px #867111, 7.83px 13.24px #867111, 4.00px 14.00px #867111, 0.17px 13.24px #867111, -3.07px 11.07px #867111, -5.24px 7.83px #867111, -6.00px 4.00px #867111, -5.24px 0.17px #867111, -3.07px -3.07px #867111, 0.17px -5.24px #867111, 4.00px -6.00px #867111, 7.83px -5.24px #867111, 11.07px -3.07px #867111, 13.24px 0.17px #867111;
 
         @media(max-width: 600px) {
