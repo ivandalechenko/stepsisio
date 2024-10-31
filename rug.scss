@@ -25,15 +25,38 @@
 
             img {
                 width: 100vw;
+                position: relative;
 
                 @media(max-width: 1600px) {
                     width: 200vw;
                     height: 93vw;
+                    animation: rugBg1600 10s infinite alternate;
+
+                    @keyframes rugBg1600 {
+                        0% {
+                            left: 0vw;
+                        }
+
+                        100% {
+                            left: -50vw;
+                        }
+                    }
                 }
 
                 @media(max-width: 700px) {
                     width: 300vw;
                     height: 186vw;
+                    animation: rugBg700 10s infinite alternate;
+
+                    @keyframes rugBg700 {
+                        0% {
+                            left: 0vw;
+                        }
+
+                        100% {
+                            left: -150vw;
+                        }
+                    }
                 }
             }
         }
