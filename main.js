@@ -39,7 +39,7 @@ window.onload = function () {
 };
 
 
-const ca = '1234';
+const ca = 'CHLAtcgnbMd8L7ggAhoBDCKY2EgSeuJFQtipjanTpump';
 
 const copyCa = () => {
     console.log('meow');
