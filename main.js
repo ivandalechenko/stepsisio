@@ -38,3 +38,16 @@ window.onload = function () {
     }, 500);
 };
 
+
+const ca = '1234';
+
+const copyCa = () => {
+    console.log('meow');
+
+    navigator.clipboard.writeText(ca).then(() => {
+        alert("CA copied to clipboard");
+    })
+}
+
+document.getElementById('buysis').onclick = copyCa;
+document.getElementById('buysis2').onclick = copyCa;

@@ -8,3 +8,14 @@
 @use 'pocker';
 @use 'rug';
 @use 'footer';
+
+
+#buysis,
+#buysis2 {
+    cursor: pointer;
+    transition: scale 200ms;
+
+    &:hover {
+        scale: 1.1;
+    }
+}
