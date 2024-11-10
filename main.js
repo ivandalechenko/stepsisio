@@ -39,6 +39,7 @@ window.onload = function () {
 };
 
 
+// тест деплоя
 const ca = 'CHLAtcgnbMd8L7ggAhoBDCKY2EgSeuJFQtipjanTpump';
 
 const copyCa = () => {
